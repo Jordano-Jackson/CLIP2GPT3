@@ -1,0 +1,17 @@
+llama/env
+llama/llama
+llama/llama.egg-info
+llama/llama-2-7b
+llama/llama-2-7b-chat
+llama/CODE_OF_CONDUCT.md
+llama/CONTRIBUTING.md
+llama/download.sh
+llama/example_chat_completion.py
+llama/example_text_completion.py
+llama/requirements.txt
+llama/Responsible-Use-Guide.pdf
+llama/setup.py
+llama/tokenizer.model
+llama/tokenizer_checklist.chk
+llama/UPDATES.md
+llama/USE_POLICY.md
