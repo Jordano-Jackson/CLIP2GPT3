@@ -1,2 +1,2 @@
 # sggVQA
-video question answering using LLaMA with sgg module
+Vision Question Answering using LLaMA with CLIP module
