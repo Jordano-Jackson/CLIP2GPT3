@@ -15,3 +15,9 @@ llama/tokenizer.model
 llama/tokenizer_checklist.chk
 llama/UPDATES.md
 llama/USE_POLICY.md
+dataset/train2014
+dataset/train2014.zip
+dataset/test2014
+dataset/test2014.zip
+huglogin.sh
+llama/cuda-repo-ubuntu2204-11-8-local_11.8.0-520.61.05-1_amd64.deb
