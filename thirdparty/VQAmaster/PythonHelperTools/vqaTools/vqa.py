@@ -67,8 +67,9 @@ class VQA:
 		Print information about the VQA annotation file.
 		:return:
 		"""
-		for key, value in self.datset['info'].items():
+		for key, value in self.dataset['info'].items():
 			print ('%s: %s'%(key, value))
+
 
 	def getQuesIds(self, imgIds=[], quesTypes=[], ansTypes=[]):
 		"""
@@ -128,6 +129,17 @@ class VQA:
 			return [self.qa[id] for id in ids]
 		elif type(ids) == int:
 			return [self.qa[ids]]
+		
+	def loadQQA(self, ids=[]):
+		"""
+		*** modified by Jihwan Hong
+		:param ids (int array)       : integer ids specifying question ids
+		:return: qqa (object array)   : loaded qa objects
+		"""
+		if type(ids) == list:
+			return [self.qqa[id] for id in ids]
+		elif type(ids) == int:
+			return [self.qqa[ids]]
 
 	def showQA(self, anns):
 		"""

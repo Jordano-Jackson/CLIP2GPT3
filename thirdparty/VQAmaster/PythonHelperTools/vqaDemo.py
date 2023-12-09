@@ -41,7 +41,9 @@ yes/no
 number
 other
 """
+print('yesOrno')
 annIds = vqa.getQuesIds(ansTypes='yes/no');   
+print(annIds)
 anns = vqa.loadQA(annIds)
 randomAnn = random.choice(anns)
 vqa.showQA([randomAnn])
@@ -58,6 +60,7 @@ if os.path.isfile(imgDir + imgFilename):
 Usage: vqa.getImgIds(quesIds=[], quesTypes=[], ansTypes=[])
 Above method can be used to retrieve imageIds for given question Ids or given question types or given answer types.
 """
+print('multichoice')
 ids = vqa.getImgIds()
 annIds = vqa.getQuesIds(imgIds=random.sample(ids,5));  
 anns = vqa.loadQA(annIds)
