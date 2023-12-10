@@ -7,9 +7,9 @@ Vision Question Answering using LLaMA with CLIP module
 * Activate conda environment
 
   
-`conda env create -f py39.yaml`
+`conda env create -f clip2gpt3_env.yaml`
 
-`conda activate py39`
+`conda activate clip2gpt3_env`
 
 * To train
 
